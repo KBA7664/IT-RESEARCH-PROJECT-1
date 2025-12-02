@@ -1,0 +1,153 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* LOGIN PAGE */
+.login-body {
+    background: linear-gradient(135deg, #003f88, #0056d6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: #fff;
+    width: 380px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 22px;
+    color: #003f88;
+}
+
+.subtitle {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #444;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #0056d6;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #003f88;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* DASHBOARD */
+.dash-body {
+    background: #f1f5f9;
+    padding: 20px;
+}
+
+.dash-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dash-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    width: 280px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+    transition: 0.3s ease-in-out;
+    color: #000;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+}
+
+.logout {
+    background: #ffdddd;
+}
+
+/* RECORDS PAGE */
+.records-body {
+    background: #eef2f7;
+    padding: 30px;
+}
+
+.records-card {
+    background: #fff;
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.20);
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.active {
+    color: green;
+    font-weight: bold;
+}
+
+.suspended {
+    color: red;
+    font-weight: bold;
+}
+
+.back-btn {
+    margin-top: 20px;
+}
